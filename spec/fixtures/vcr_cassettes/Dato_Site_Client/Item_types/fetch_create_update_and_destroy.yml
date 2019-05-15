@@ -5,7 +5,7 @@ http_interactions:
     uri: http://account-api.lvh.me:3001/account
     body:
       encoding: UTF-8
-      string: '{"data":{"type":"account","attributes":{"email":"FSMDNNHC@example.com","name":"Test","company":"DatoCMS","password":"veryst_9rong_passowrd4_"}}}'
+      string: '{"data":{"type":"account","attributes":{"email":"OPGKLEFX@example.com","name":"Test","company":"DatoCMS","password":"veryst_9rong_passowrd4_"}}}'
     headers:
       Accept:
       - application/json
@@ -33,13 +33,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '29'
       Etag:
-      - W/"725e0353142f8336e78066747545567a"
+      - W/"dfd1e5ffcfea4982af432f912315fd0a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9288d31c-c4f0-4b89-a2c8-bc1fbf31bfb2
+      - ca97c6b0-b6e8-412c-9e6c-2e399eeac1d2
       X-Runtime:
-      - '0.457296'
+      - '0.470249'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -58,16 +58,16 @@ http_interactions:
       encoding: ASCII-8BIT
       base64_string: |
         eyJkYXRhIjp7ImlkIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6
-        STFOaUo5LmV5SmhZMk52ZFc1MFgybGtJam8zTnpJMExDSm5aVzVsY21GMFpX
-        UmZZWFFpT2lJeU1ERTVMVEExTFRFMVZERXhPakkyT2pBeExqTXdNeXN3TWpv
-        d01DSjkubGRsRFJzQmwtUEFiekhrQUl6M2lUYnJWcDJjV3ZPMVlZQkZzZXRS
-        QWtTbyIsInR5cGUiOiJzZXNzaW9uIiwicmVsYXRpb25zaGlwcyI6eyJhY2Nv
-        dW50Ijp7ImRhdGEiOnsiaWQiOiI3NzI0IiwidHlwZSI6ImFjY291bnQifX19
-        fSwiaW5jbHVkZWQiOlt7ImlkIjoiNzcyNCIsInR5cGUiOiJhY2NvdW50Iiwi
-        YXR0cmlidXRlcyI6eyJlbWFpbCI6IkZTTUROTkhDQGV4YW1wbGUuY29tIiwi
+        STFOaUo5LmV5SmhZMk52ZFc1MFgybGtJam8zT0RJMUxDSm5aVzVsY21GMFpX
+        UmZZWFFpT2lJeU1ERTVMVEExTFRFMVZERTBPalF5T2pJNUxqTXpNaXN3TWpv
+        d01DSjkuenRMVjJLTWJRUzJLNGZLN19OSTl5eW91bjM4VU9XVVE4OU9hd00w
+        V3g3QSIsInR5cGUiOiJzZXNzaW9uIiwicmVsYXRpb25zaGlwcyI6eyJhY2Nv
+        dW50Ijp7ImRhdGEiOnsiaWQiOiI3ODI1IiwidHlwZSI6ImFjY291bnQifX19
+        fSwiaW5jbHVkZWQiOlt7ImlkIjoiNzgyNSIsInR5cGUiOiJhY2NvdW50Iiwi
+        YXR0cmlidXRlcyI6eyJlbWFpbCI6Ik9QR0tMRUZYQGV4YW1wbGUuY29tIiwi
         bmFtZSI6IlRlc3QiLCJjb21wYW55IjoiRGF0b0NNUyJ9fV19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:01 GMT
+  recorded_at: Wed, 15 May 2019 12:42:29 GMT
 - request:
     method: post
     uri: http://account-api.lvh.me:3001/sites
@@ -80,7 +80,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo3NzI0LCJnZW5lcmF0ZWRfYXQiOiIyMDE5LTA1LTE1VDExOjI2OjAxLjMwMyswMjowMCJ9.ldlDRsBl-PAbzHkAIz3iTbrVp2cWvO1YYBFsetRAkSo
+      - Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjo3ODI1LCJnZW5lcmF0ZWRfYXQiOiIyMDE5LTA1LTE1VDE0OjQyOjI5LjMzMiswMjowMCJ9.ztLV2KMbQS2K4fK7_NI9yyoun38UOWUQ89OawM0Wx7A
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -103,13 +103,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '28'
       Etag:
-      - W/"95f8c7a938b7b22d04b062449014e2cc"
+      - W/"2bc68ea74f079fb0d5a84ab9b70e9a3d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 45593aff-1da7-47eb-ade5-dadceec5ba25
+      - 5864abbf-f057-4aff-a80d-32f2e6974ace
       X-Runtime:
-      - '1.651068'
+      - '0.541487'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -127,27 +127,27 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjp7ImlkIjoiMTE4MDEiLCJ0eXBlIjoic2l0ZSIsImF0dHJpYnV0
+        eyJkYXRhIjp7ImlkIjoiMTE4OTQiLCJ0eXBlIjoic2l0ZSIsImF0dHJpYnV0
         ZXMiOnsibmFtZSI6IlRlc3Qgc2l0ZSIsImRvbWFpbiI6bnVsbCwiaW50ZXJu
-        YWxfc3ViZG9tYWluIjoidGVzdC1zaXRlLTExOSIsImxhc3RfZGF0YV9jaGFu
-        Z2VfYXQiOiIyMDE5LTA1LTE1VDA5OjI2OjAyLjU5MFoiLCJub3RlcyI6bnVs
+        YWxfc3ViZG9tYWluIjoidGVzdC1zaXRlLTE5MiIsImxhc3RfZGF0YV9jaGFu
+        Z2VfYXQiOiIyMDE5LTA1LTE1VDEyOjQyOjI5Ljc5OFoiLCJub3RlcyI6bnVs
         bCwiYWNjZXNzX3Rva2VuIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lK
-        SVV6STFOaUo5LmV5SnphWFJsWDJsa0lqb3hNVGd3TVN3aVlXTmpiM1Z1ZENJ
+        SVV6STFOaUo5LmV5SnphWFJsWDJsa0lqb3hNVGc1TkN3aVlXTmpiM1Z1ZENJ
         NmRISjFaU3dpWjJWdVpYSmhkR1ZrWDJGMElqb2lNakF4T1Mwd05TMHhOVlF4
-        TVRveU5qb3dNaTQ0Tmpnck1ESTZNREFpZlEuSjZSUDgzVm1Fa0FjdnNqSDN2
-        MlRSQURIckVQR3ZvYlFFVjhRUVMwd192YyIsImludGVybmFsX2RvbWFpbiI6
-        InRlc3Qtc2l0ZS0xMTkuYWRtaW4uZGF0b2Ntcy5jb20iLCJjcmVhdGVkX2F0
-        IjoiMjAxOS0wNS0xNVQwOToyNjowMi41OTBaIiwicmVhZHdyaXRlX3Rva2Vu
-        IjoiNjY5ZGUwNDljM2NjMDQ1YjhmNjRjODUwZGJiMDdmIiwicmVhZG9ubHlf
-        dG9rZW4iOiIwMTIzZGM5OTg3OWM4ODlmNmNlMGY4YTY1MTNkNDYiLCJkZWFj
+        TkRvME1qb3lPUzQ0TmpFck1ESTZNREFpZlEuQnZJVEFPd0JzSWZhSzNzOG1J
+        dDVFX2RpZTBKdDNEWFNNNGxCcVhpMWNTQSIsImludGVybmFsX2RvbWFpbiI6
+        InRlc3Qtc2l0ZS0xOTIuYWRtaW4uZGF0b2Ntcy5jb20iLCJjcmVhdGVkX2F0
+        IjoiMjAxOS0wNS0xNVQxMjo0MjoyOS43OThaIiwicmVhZHdyaXRlX3Rva2Vu
+        IjoiYjhjY2YyMWYzODY3MTljZDViMGY4MjNkYmNlZDc0IiwicmVhZG9ubHlf
+        dG9rZW4iOiJlYzk0MDEyODAwNmFhMjk0MDBiY2MzMWQzYjgwMWYiLCJkZWFj
         dGl2YXRlZCI6ZmFsc2V9LCJyZWxhdGlvbnNoaXBzIjp7ImFjdGl2ZV9zdWJz
-        Y3JpcHRpb24iOnsiZGF0YSI6eyJpZCI6IjEzMDk2IiwidHlwZSI6InN1YnNj
+        Y3JpcHRpb24iOnsiZGF0YSI6eyJpZCI6IjEzMTg5IiwidHlwZSI6InN1YnNj
         cmlwdGlvbiJ9fSwiYWN0aXZlX3BsYW4iOnsiZGF0YSI6eyJpZCI6IjEyIiwi
-        dHlwZSI6InBsYW4ifX0sInVzYWdlIjp7ImRhdGEiOnsiaWQiOiIxMi0xMTgw
-        MSIsInR5cGUiOiJwbGFuX2NvbXBhdGliaWxpdHkifX0sInRyYW5zZmVyIjp7
+        dHlwZSI6InBsYW4ifX0sInVzYWdlIjp7ImRhdGEiOnsiaWQiOiIxMi0xMTg5
+        NCIsInR5cGUiOiJwbGFuX2NvbXBhdGliaWxpdHkifX0sInRyYW5zZmVyIjp7
         ImRhdGEiOm51bGx9fX19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:02 GMT
+  recorded_at: Wed, 15 May 2019 12:42:29 GMT
 - request:
     method: post
     uri: http://site-api.lvh.me:3001/item-types
@@ -160,7 +160,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -183,13 +183,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '21'
       Etag:
-      - W/"e70315072b7adcf35b64e9267fdadde2"
+      - W/"cda6aa77b90337348edea3278e0877b6"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 852e7c2f-fe54-4ffb-ac0b-2be37b547354
+      - a019398f-d768-4b2d-97e9-665d9528f1e7
       X-Runtime:
-      - '0.244602'
+      - '0.110789'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -207,7 +207,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjp7ImlkIjoiNzc4MTQiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
+        eyJkYXRhIjp7ImlkIjoiNzc4NjMiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
         cmlidXRlcyI6eyJuYW1lIjoiQXJ0aWNsZSIsInNpbmdsZXRvbiI6ZmFsc2Us
         InNvcnRhYmxlIjpmYWxzZSwiYXBpX2tleSI6ImFydGljbGUiLCJvcmRlcmlu
         Z19kaXJlY3Rpb24iOm51bGwsInRyZWUiOmZhbHNlLCJtb2R1bGFyX2Jsb2Nr
@@ -218,7 +218,7 @@ http_interactions:
         eyJkYXRhIjpudWxsfSwib3JkZXJpbmdfZmllbGQiOnsiZGF0YSI6bnVsbH0s
         InRpdGxlX2ZpZWxkIjp7ImRhdGEiOm51bGx9fX19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:03 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 - request:
     method: get
     uri: http://site-api.lvh.me:3001/item-types
@@ -231,7 +231,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -254,13 +254,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '29'
       Etag:
-      - W/"47267089d5dc22dee5c3462c1579cf55"
+      - W/"299e033585e9874236c453bd2472eebe"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c3cb3713-d133-4050-9373-e7f2f5a476d9
+      - 0ab6c592-c2de-407b-9f06-696b8d0e13cf
       X-Runtime:
-      - '0.051095'
+      - '0.036787'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -278,7 +278,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjpbeyJpZCI6Ijc3ODE0IiwidHlwZSI6Iml0ZW1fdHlwZSIsImF0
+        eyJkYXRhIjpbeyJpZCI6Ijc3ODYzIiwidHlwZSI6Iml0ZW1fdHlwZSIsImF0
         dHJpYnV0ZXMiOnsibmFtZSI6IkFydGljbGUiLCJzaW5nbGV0b24iOmZhbHNl
         LCJzb3J0YWJsZSI6ZmFsc2UsImFwaV9rZXkiOiJhcnRpY2xlIiwib3JkZXJp
         bmdfZGlyZWN0aW9uIjpudWxsLCJ0cmVlIjpmYWxzZSwibW9kdWxhcl9ibG9j
@@ -289,20 +289,20 @@ http_interactions:
         OnsiZGF0YSI6bnVsbH0sIm9yZGVyaW5nX2ZpZWxkIjp7ImRhdGEiOm51bGx9
         LCJ0aXRsZV9maWVsZCI6eyJkYXRhIjpudWxsfX19XX0=
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:03 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 - request:
     method: put
-    uri: http://site-api.lvh.me:3001/item-types/77814
+    uri: http://site-api.lvh.me:3001/item-types/77863
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"77814","type":"item_type","attributes":{"name":"Post","api_key":"post","collection_appeareance":"compact","singleton":false,"all_locales_required":true,"sortable":false,"modular_block":false,"draft_mode_active":false,"tree":false,"ordering_direction":null,"has_singleton_item":false},"relationships":{"ordering_field":{"data":null},"title_field":{"data":null}}}}'
+      string: '{"data":{"id":"77863","type":"item_type","attributes":{"name":"Post","api_key":"post","collection_appeareance":"compact","singleton":false,"all_locales_required":true,"sortable":false,"modular_block":false,"draft_mode_active":false,"tree":false,"ordering_direction":null,"has_singleton_item":false},"relationships":{"ordering_field":{"data":null},"title_field":{"data":null}}}}'
     headers:
       Accept:
       - application/json
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -325,13 +325,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '28'
       Etag:
-      - W/"16356116de42be243af7c92996ef739b"
+      - W/"f5eaaa443284acfde01b93531bcef46e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 482da4b2-dbaf-41d1-8403-73f9725f5815
+      - 3d7844b3-1a96-42de-8f05-33c1288c7925
       X-Runtime:
-      - '0.286655'
+      - '0.060180'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -349,7 +349,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjp7ImlkIjoiNzc4MTQiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
+        eyJkYXRhIjp7ImlkIjoiNzc4NjMiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
         cmlidXRlcyI6eyJuYW1lIjoiUG9zdCIsInNpbmdsZXRvbiI6ZmFsc2UsInNv
         cnRhYmxlIjpmYWxzZSwiYXBpX2tleSI6InBvc3QiLCJvcmRlcmluZ19kaXJl
         Y3Rpb24iOm51bGwsInRyZWUiOmZhbHNlLCJtb2R1bGFyX2Jsb2NrIjpmYWxz
@@ -360,10 +360,10 @@ http_interactions:
         IjpudWxsfSwib3JkZXJpbmdfZmllbGQiOnsiZGF0YSI6bnVsbH0sInRpdGxl
         X2ZpZWxkIjp7ImRhdGEiOm51bGx9fX19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:03 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 - request:
     method: get
-    uri: http://site-api.lvh.me:3001/item-types/77814
+    uri: http://site-api.lvh.me:3001/item-types/77863
     body:
       encoding: US-ASCII
       string: ''
@@ -373,7 +373,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -396,13 +396,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '27'
       Etag:
-      - W/"16356116de42be243af7c92996ef739b"
+      - W/"f5eaaa443284acfde01b93531bcef46e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 80748c7d-0091-4865-a98a-45228edb5d5c
+      - 7baeed02-a716-4327-8c04-db7999efff00
       X-Runtime:
-      - '0.180925'
+      - '0.027047'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -420,7 +420,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjp7ImlkIjoiNzc4MTQiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
+        eyJkYXRhIjp7ImlkIjoiNzc4NjMiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
         cmlidXRlcyI6eyJuYW1lIjoiUG9zdCIsInNpbmdsZXRvbiI6ZmFsc2UsInNv
         cnRhYmxlIjpmYWxzZSwiYXBpX2tleSI6InBvc3QiLCJvcmRlcmluZ19kaXJl
         Y3Rpb24iOm51bGwsInRyZWUiOmZhbHNlLCJtb2R1bGFyX2Jsb2NrIjpmYWxz
@@ -431,10 +431,10 @@ http_interactions:
         IjpudWxsfSwib3JkZXJpbmdfZmllbGQiOnsiZGF0YSI6bnVsbH0sInRpdGxl
         X2ZpZWxkIjp7ImRhdGEiOm51bGx9fX19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:03 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 - request:
     method: post
-    uri: http://site-api.lvh.me:3001/item-types/77814/duplicate
+    uri: http://site-api.lvh.me:3001/item-types/77863/duplicate
     body:
       encoding: UTF-8
       string: "{}"
@@ -444,7 +444,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -467,13 +467,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '26'
       Etag:
-      - W/"b4cddc6088c73bc16e5f50137da471da"
+      - W/"e428a99e66461bc660fcf016809a7956"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1e7c7ef8-7228-4b7e-904a-969852ea1436
+      - ee871325-31ba-44e7-9102-74fadf085063
       X-Runtime:
-      - '0.517619'
+      - '0.095635'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -491,7 +491,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjp7ImlkIjoiNzc4MTUiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
+        eyJkYXRhIjp7ImlkIjoiNzc4NjQiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
         cmlidXRlcyI6eyJuYW1lIjoiUG9zdCAoY29weSAjMSkiLCJzaW5nbGV0b24i
         OmZhbHNlLCJzb3J0YWJsZSI6ZmFsc2UsImFwaV9rZXkiOiJwb3N0X2NvcHlf
         MSIsIm9yZGVyaW5nX2RpcmVjdGlvbiI6bnVsbCwidHJlZSI6ZmFsc2UsIm1v
@@ -502,10 +502,10 @@ http_interactions:
         bGV0b25faXRlbSI6eyJkYXRhIjpudWxsfSwib3JkZXJpbmdfZmllbGQiOnsi
         ZGF0YSI6bnVsbH0sInRpdGxlX2ZpZWxkIjp7ImRhdGEiOm51bGx9fX19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:04 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 - request:
     method: get
-    uri: http://site-api.lvh.me:3001/item-types/77815
+    uri: http://site-api.lvh.me:3001/item-types/77864
     body:
       encoding: US-ASCII
       string: ''
@@ -515,7 +515,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -538,13 +538,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '25'
       Etag:
-      - W/"b4cddc6088c73bc16e5f50137da471da"
+      - W/"e428a99e66461bc660fcf016809a7956"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 16e1553a-04da-498d-bb97-d018bccba71c
+      - b81357a0-6a18-4dfd-ac21-f9a6e3c1f985
       X-Runtime:
-      - '0.074447'
+      - '0.031907'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -562,7 +562,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjp7ImlkIjoiNzc4MTUiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
+        eyJkYXRhIjp7ImlkIjoiNzc4NjQiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
         cmlidXRlcyI6eyJuYW1lIjoiUG9zdCAoY29weSAjMSkiLCJzaW5nbGV0b24i
         OmZhbHNlLCJzb3J0YWJsZSI6ZmFsc2UsImFwaV9rZXkiOiJwb3N0X2NvcHlf
         MSIsIm9yZGVyaW5nX2RpcmVjdGlvbiI6bnVsbCwidHJlZSI6ZmFsc2UsIm1v
@@ -573,10 +573,10 @@ http_interactions:
         bGV0b25faXRlbSI6eyJkYXRhIjpudWxsfSwib3JkZXJpbmdfZmllbGQiOnsi
         ZGF0YSI6bnVsbH0sInRpdGxlX2ZpZWxkIjp7ImRhdGEiOm51bGx9fX19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:04 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 - request:
     method: delete
-    uri: http://site-api.lvh.me:3001/item-types/77814
+    uri: http://site-api.lvh.me:3001/item-types/77863
     body:
       encoding: US-ASCII
       string: ''
@@ -586,7 +586,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -609,13 +609,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '24'
       Etag:
-      - W/"508f6779ace4cc43a7092e8b4c378ae1"
+      - W/"f5eaaa443284acfde01b93531bcef46e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9fb4bde8-925a-423d-b6fc-914ec59cd79b
+      - 29dddc0d-7269-4c7f-a121-d1024c50b45f
       X-Runtime:
-      - '0.797891'
+      - '0.164024'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -633,7 +633,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjp7ImlkIjoiNzc4MTQiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
+        eyJkYXRhIjp7ImlkIjoiNzc4NjMiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0
         cmlidXRlcyI6eyJuYW1lIjoiUG9zdCIsInNpbmdsZXRvbiI6ZmFsc2UsInNv
         cnRhYmxlIjpmYWxzZSwiYXBpX2tleSI6InBvc3QiLCJvcmRlcmluZ19kaXJl
         Y3Rpb24iOm51bGwsInRyZWUiOmZhbHNlLCJtb2R1bGFyX2Jsb2NrIjpmYWxz
@@ -644,7 +644,7 @@ http_interactions:
         IjpudWxsfSwib3JkZXJpbmdfZmllbGQiOnsiZGF0YSI6bnVsbH0sInRpdGxl
         X2ZpZWxkIjp7ImRhdGEiOm51bGx9fX19
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:05 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 - request:
     method: get
     uri: http://site-api.lvh.me:3001/item-types
@@ -657,7 +657,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - Bearer 669de049c3cc045b8f64c850dbb07f
+      - Bearer b8ccf21f386719cd5b0f823dbced74
       User-Agent:
       - ruby-client v0.7.2
       X-Api-Version:
@@ -680,13 +680,13 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '23'
       Etag:
-      - W/"8a6675bb1cd50d524d80aee0fa44e296"
+      - W/"c307aa0d3dc6326716fab4bbf22b6ab0"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9004ba44-7f88-414d-b0be-9c6ecef53c5e
+      - d4890d23-2234-4d39-9097-ba2af908e922
       X-Runtime:
-      - '0.197497'
+      - '0.033170'
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -704,7 +704,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        eyJkYXRhIjpbeyJpZCI6Ijc3ODE1IiwidHlwZSI6Iml0ZW1fdHlwZSIsImF0
+        eyJkYXRhIjpbeyJpZCI6Ijc3ODY0IiwidHlwZSI6Iml0ZW1fdHlwZSIsImF0
         dHJpYnV0ZXMiOnsibmFtZSI6IlBvc3QgKGNvcHkgIzEpIiwic2luZ2xldG9u
         IjpmYWxzZSwic29ydGFibGUiOmZhbHNlLCJhcGlfa2V5IjoicG9zdF9jb3B5
         XzEiLCJvcmRlcmluZ19kaXJlY3Rpb24iOm51bGwsInRyZWUiOmZhbHNlLCJt
@@ -715,5 +715,5 @@ http_interactions:
         Z2xldG9uX2l0ZW0iOnsiZGF0YSI6bnVsbH0sIm9yZGVyaW5nX2ZpZWxkIjp7
         ImRhdGEiOm51bGx9LCJ0aXRsZV9maWVsZCI6eyJkYXRhIjpudWxsfX19XX0=
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:26:05 GMT
+  recorded_at: Wed, 15 May 2019 12:42:30 GMT
 recorded_with: VCR 4.0.0

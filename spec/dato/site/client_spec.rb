@@ -220,6 +220,8 @@ module Dato
             file: client.upload_file('./spec/fixtures/file.txt')
           )
 
+          new_item2 = client.items.find(new_item[:id])
+
           expect(new_item[:item_type]).not_to be_nil
 
           all_items = client.items.all('filter[type]' => item_type[:id])
@@ -234,12 +236,14 @@ module Dato
 
           expect(client.items.find(new_item[:id])[:title]).to eq 'Welcome!'
 
-          client.items.update(
-            new_item[:id],
-            title: 'Welcome 2!'
-          )
+          expect{
+            client.items.update(
+              new_item2[:id],
+              new_item2.merge(title: 'Welcome 2!')
+            )
+          }.to raise_error Dato::ApiError
 
-          expect(client.items.find(new_item[:id])[:title]).to eq 'Welcome 2!'
+          expect(client.items.find(new_item[:id])[:title]).to eq 'Welcome!'
 
           client.items.destroy(new_item[:id])
           expect(client.items.all('filter[type]' => item_type[:id]).size).to eq 0

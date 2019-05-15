@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 15 May 2019 09:25:23 GMT
+      - Wed, 15 May 2019 12:41:33 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -27,12 +27,12 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=dc0a63ce3d379d871efeaea59657b792c1557912323; expires=Thu, 14-May-20
-        09:25:23 GMT; path=/; domain=.datocms.com; HttpOnly; Secure
+      - __cfduid=dd6c3b76e5a978c2c8979104acb9a3a6b1557924093; expires=Thu, 14-May-20
+        12:41:33 GMT; path=/; domain=.datocms.com; HttpOnly; Secure
       Last-Modified:
       - Mon, 13 May 2019 16:51:44 GMT
       X-Queue-Time:
-      - 6ms
+      - 9ms
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -52,7 +52,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 4d741073388290d3-ZAG
+      - 4d752fd0bab49115-ZAG
     body:
       encoding: ASCII-8BIT
       base64_string: |
@@ -5188,7 +5188,7 @@ http_interactions:
         CiAgICAgICAgICAiJHJlZiI6ICIjL2RlZmluaXRpb25zL2pvYi9kZWZpbml0
         aW9ucy9pZCIKICAgICAgICB9CiAgICAgIH0KICAgIH0KICB9Cn0=
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:25:23 GMT
+  recorded_at: Wed, 15 May 2019 12:41:34 GMT
 - request:
     method: get
     uri: https://account-api.datocms.com/docs/account-api-hyperschema.json
@@ -5210,7 +5210,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 15 May 2019 09:25:23 GMT
+      - Wed, 15 May 2019 12:41:41 GMT
       Connection:
       - keep-alive
       Last-Modified:
@@ -5218,7 +5218,7 @@ http_interactions:
       Content-Type:
       - application/json
       X-Queue-Time:
-      - 8ms
+      - 7141ms
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Headers:
@@ -7430,5 +7430,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Wed, 15 May 2019 09:25:24 GMT
+  recorded_at: Wed, 15 May 2019 12:41:42 GMT
 recorded_with: VCR 4.0.0
