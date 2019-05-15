@@ -17,6 +17,9 @@ module Dato
       data[:id] = id || resource[:id] if id || resource[:id]
 
       if resource.has_key?(:meta)
+        if resource[:meta].has_key?(:current_version_id) && type == "item"
+          data[:meta] = resource[:meta]
+        end
         resource.delete(:meta)
       end
 
